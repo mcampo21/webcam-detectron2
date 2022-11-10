@@ -19,4 +19,4 @@ Run the [**webcam_detectron2.py**](https://github.com/mcampo21/webcam-detectron2
 * KD = Keypoint Detection
 
 ### Instance Segmentation Example:
-<img src="https://github.com/mcampo21/webcam-detectron2/blob/main/cam_capture3.png" width = "777" >
+<img src="https://github.com/mcampo21/webcam-detectron2/blob/main/example_capture.png" width = "777" >
