@@ -12,10 +12,11 @@ Implement a simple solution to run Detectron Mask R-CNN algorithm for object det
 5. To output a video using Matplotlib, the interactive mode **_plt.ion()_** was used. Each predicted frame is set into an image array and then is re-drawn for every new frame using the **_plt.draw()_** function. New frames caputred from the webcam will be continuously predicted and displayed until the loop is broken using **ctrl+C** in the terminal.
 
 ## Results:
-Run the **webcam_detectron2.py** file. Detector mode can be chosen by setting **_model_type_** to one of the following string abbreviations:
+Run the [**webcam_detectron2.py**](https://github.com/mcampo21/webcam-detectron2/blob/main/webcam_detectron2.py) file. Detector mode can be chosen by setting **_model_type_** to one of the following string abbreviations:
 * OD = Object Detection
 * IS = Instance Segmentation
 * PS = Panoptic Segmentation
 * KD = Keypoint Detection
 
-###Example:
+### Instance Segmentation Example:
+<img src="https://github.com/mcampo21/webcam-detectron2/blob/main/cam_capture3.png" width = "777" >
